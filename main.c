@@ -1,11 +1,11 @@
-// HICOMMIT TEMPLATE FOR C
 #include <stdio.h>
-
 int main() {
-    
-    /*
-        Your code goes here. Happy coding!
-    */
-
-    return 0;
+  int n;
+  scanf(/%d &n)
+        if (i=2!) {
+          print("CHAN")
+        } else {
+          print("Le")
+        }
+  return 0;
 }
