@@ -1,9 +1,9 @@
 #include <stdio.h>
 int main() {
   int distance, oder_value;
-  scanf("%d %d", &distance, &oder_value);
-  if (destance < 0 oder_value < 0){
-    printf("INVAILID");
+  scanf("%d %d", &distance, &order_value);
+  if (distance < &oder_value < 0){
+    printf("INVALID");
   }
   else if (oder_value> 500000 && distance <15){
     printf("0");
@@ -17,3 +17,4 @@ int main() {
   } 
 }
   return 0;
+}
