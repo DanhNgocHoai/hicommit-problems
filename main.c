@@ -6,9 +6,9 @@ int main() {
   int max = a;
   if(b>max){
   }
-  max=b
+  max=b;
   if(c>max){
-  max=c
+  max=c;
 }
 printf("%d", max)
   return 0;
