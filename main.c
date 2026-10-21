@@ -3,9 +3,9 @@ int main() {
   int a;
   scanf(/%d, &a);
         if (a%2 == 0) {
-          print("CHAN")
+          printf("CHAN")
         } else {
-          print("Le")
+          printf("Le")
         }
   return 0;
 }
