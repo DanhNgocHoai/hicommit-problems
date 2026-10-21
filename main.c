@@ -14,5 +14,5 @@ int main() {
        } else {
         printf("RAT_NONG\n");
 }
-  return 0
+  return 0;
 }
