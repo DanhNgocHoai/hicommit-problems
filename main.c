@@ -5,7 +5,7 @@ int main() {
         if (a%2 == 0) {
           printf("CHAN");
         } else {
-          printf("Le");
+          printf("LE");
         }
   return 0;
 }
