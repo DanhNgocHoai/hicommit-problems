@@ -15,7 +15,8 @@ int main() {
       case 4;
       printf("XEP_LOAI_TRUNG_BINH"\n)
       break;
-      default("KHONG_HOP_LE"\n)
+    default:
+      puts("KHONG_HOP_LE")
   }
   
   return 0
