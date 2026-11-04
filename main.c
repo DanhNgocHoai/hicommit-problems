@@ -4,7 +4,10 @@ int main() {
   int drl;
     if (scanf("%f %f"), &dtb, &drl);
       if dtb >= 9.0:
-        hoc_luc = "XUAT_SAC"
+        printf("XUAT_SAC")
+  else if (8.0 <= dtb < 9.0){
+    
+  }
 
     return 0;
   }
