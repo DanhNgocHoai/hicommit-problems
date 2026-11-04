@@ -1,6 +1,7 @@
-  #include <stdio.h>
+#include <stdio.h>
 int main() {
   float dtb;
-    int drl;
-    scanf("%d", &dtb);
-    scanf("%f", &drl);
+  int drl;
+    if (scanf("%f %f", &dtb &drl);
+    return 0;
+  }
