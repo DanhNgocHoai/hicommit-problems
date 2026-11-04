@@ -13,7 +13,10 @@ int main() {
         } 
         else if (dtb >= 7.0 && dtb < 8.0) {
             printf("KHA\n");
-        } 
+      }else (dtb < 7.0){
+            printf("KHONG_DAT");
+      } 
+        
     }
 
     return 0;
