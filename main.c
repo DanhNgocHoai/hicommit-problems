@@ -1,12 +1,9 @@
 #include <stdio.h>
-
 int main() {
     double dtb, drl;
-
     if (scanf("%lf %lf", &dtb, &drl) != 2) {
         return 0;
     }
-
     int hoc_luc; 
     if (dtb >= 9.0) {
         hoc_luc = 4;
@@ -17,7 +14,6 @@ int main() {
     } else {
         hoc_luc = 1;
     }
-
     int ren_luyen; 
     if (drl >= 90) {
         ren_luyen = 4;
@@ -28,7 +24,6 @@ int main() {
     } else {
         ren_luyen = 1;
     }
-
     if (hoc_luc == 4 && ren_luyen == 4) {
         printf("HOC_BONG_XUAT_SAC\n");
     } 
@@ -43,6 +38,5 @@ int main() {
     else {
         printf("KHONG_DAT\n");
     }
-
     return 0;
 }
