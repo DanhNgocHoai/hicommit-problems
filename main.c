@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 int main() {
-    float dtb;
-    int drl;
+    float drl;
+    int dtb;
 
     if (scanf("%f %d", &dtb, &drl) == 2) { 
         if (dtb >= 9.0) {
