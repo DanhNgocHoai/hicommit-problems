@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() {
   int code;
-    scanf("%d", &code)
+    scanf("%d", &code);
   switch(code){
       case 1:
       printf("XEP_LOAI_XUAT_SAC");
@@ -15,11 +15,10 @@ int main() {
       case 4:
       printf("XEP_LOAI_TRUNG_BINH");
       break;
-      
     default:
-      puts("KHONG_HOP_LE");
+      printf("KHONG_HOP_LE");
   }
   
-  return 0
+  return 0;
 
 }
