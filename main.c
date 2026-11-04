@@ -2,19 +2,20 @@
 int main() {
   int code;
     scanf("%d", &code)
-  switch(code){
-      code 1;
-      printf("XEP_LOAI_XUAT_SAC")
+  switch(case){
+      case 1;
+      printf("XEP_LOAI_XUAT_SAC"\n)
       break;
-      code 2;
-      printf("XEP_LOAI_GIOI")
+      case 2;
+      printf("XEP_LOAI_GIOI"\n)
       break;
-      code 3;
-      printf("XEP_LOAI_KHA")
+      case 3;
+      printf("XEP_LOAI_KHA"\n)
       break;
-      code 4;
-      printf("XEP_LOAI_TRUNG_BINH")
+      case 4;
+      printf("XEP_LOAI_TRUNG_BINH"\n)
       break;
+      default("KHONG_HOP_LE"\n)
   }
   
   return 0
