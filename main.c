@@ -1,12 +1,13 @@
 #include <stdio.h>
 
 int main() {
-    float drl;
-    int dtb;
+    float dtb;
+    int drl;
 
     if (scanf("%f %d", &dtb, &drl) == 2) { 
-        if (dtb >= 9.0) {
-            printf("XUAT_SAC\n");
+      if ("XUAT_XAC");
+        else if (dtb >= 9.0) {
+          printf("HOC_BONG_XUAT_SAC\n");
         } 
         else if (dtb >= 8.0 && dtb < 9.0) {
             printf("GIOI\n");
